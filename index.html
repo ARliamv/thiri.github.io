@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiri | Aspiring Data Analyst</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="fav/favicon.ico">
+    <link rel="icon" type="image/png" href="fav/favicon-96x96.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 1. NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">THIRI<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="btn btn-secondary nav-btn cert-btn" data-img="images/RESUME.jpg">View Resume</button>
+        </div>
+    </nav>
+
+    <!-- 2. HERO SECTION -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge">Aspiring Data Analyst</span>
+                <h1 class="hero-title">DATA WITH <br><span class="highlight">PURPOSE.</span></h1>
+                <p class="hero-subtitle">
+                    Hi, I'm <strong>Thiri</strong>. I transform raw data into clear, actionable business insights using SQL, Python, Power BI, and Excel.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="images/image.jpg" alt="Thiri - Data Analyst" class="hero-img" onerror="this.src='https://via.placeholder.com/350x420/CA8643/FFFFFF?text=Thiri+Profile'">
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. ABOUT ME SECTION -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>MY STORY</h2>
+                <div class="line-divider"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I’m an aspiring Data Analyst who loves exploring raw datasets, discovering hidden patterns, and building clear visual stories that help answer real-world questions.
+                    </p>
+                    <p>
+                        My background combines logical problem solving with hands-on practice in modern data tools. I focus heavily on writing clean queries, crafting intuitive visual dashboards, and asking the right questions to turn numbers into decisions.
+                    </p>
+                </div>
+                <div class="learning-card">
+                    <h3>Currently Focusing On</h3>
+                    <ul class="learning-list">
+                        <li><span>⚡</span> SQL (Joins, Aggregations, CTEs)</li>
+                        <li><span>⚡</span> Python (Pandas, Matplotlib, Seaborn)</li>
+                        <li><span>⚡</span> Power BI (Interactive Dashboards, DAX)</li>
+                        <li><span>⚡</span> Data Cleaning & Visualization Techniques</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. SKILLS SECTION -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>WHAT I WORK WITH</h2>
+                <div class="line-divider"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>SQL</h3>
+                    <p>Querying relational databases, complex joins, subqueries, group aggregations, and performance analysis.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Data cleaning, exploratory data analysis (EDA), data manipulation with Pandas, and visualization with Matplotlib/Seaborn.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <h3>Power BI</h3>
+                    <p>Interactive dashboard creation, DAX calculations, data modeling, and business performance tracking.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📈</div>
+                    <h3>Excel</h3>
+                    <p>Advanced formulas, VLOOKUP/XLOOKUP, Pivot Tables, summary reporting, and charts.</p>
+                </div>
+            </div>
+
+            <div class="tools-wrapper">
+                <h4>Core Tools & Environments</h4>
+                <div class="tools-tags">
+                    <span class="tool-tag">MySQL</span>
+                    <span class="tool-tag">Power BI Desktop</span>
+                    <span class="tool-tag">Jupyter Notebook</span>
+                    <span class="tool-tag">VS Code</span>
+                    <span class="tool-tag">MS Excel</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. FEATURED PROJECTS SECTION -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>FEATURED PROJECTS</h2>
+                <div class="line-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/powerbi_img.jpg" alt="E-Commerce Sales Dashboard" onerror="this.src='https://via.placeholder.com/600x350/030405/F9FFD7?text=Power+BI+Dashboard'">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Power BI</span>
+                            <span>DAX</span>
+                            <span>Data Analysis</span>
+                        </div>
+                        <h3>E-Commerce Sales & Customer Analytics</h3>
+                        <p>An interactive business dashboard tracking sales trends, customer segmentation, regional metrics, and revenue breakdown over time.</p>
+                        <div class="project-actions">
+                            <a href="projects/PowerBI_Ecommerce_Report_HTW.pbix" download="Sales_Report.pbix" class="btn btn-sm btn-primary">Download Power BI Report</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/mysql_png.png" alt="Employee Database SQL Analysis" onerror="this.src='https://via.placeholder.com/600x350/CA8643/030405?text=SQL+Database+Analysis'">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>MySQL</span>
+                            <span>SQL Querying</span>
+                            <span>Relational DB</span>
+                        </div>
+                        <h3>Employee Database Analysis</h3>
+                        <p>Structured query operations evaluating salary distributions, departmental structures, employee turnover, and internal promotions.</p>
+                        <div class="project-actions">
+                            <a href="projects/Employee_Database_SQL_Portfolio_HTW.sql" download="employee_queries.sql" class="btn btn-sm btn-primary">Download SQL Script</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/logos-jupyter.png" alt="Movie Dataset Exploratory Data Analysis" onerror="this.src='https://via.placeholder.com/600x350/030405/CA8643?text=Python+EDA+Project'">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Matplotlib</span>
+                        </div>
+                        <h3>Movie Dataset Exploratory Analysis</h3>
+                        <p>Exploratory data analysis investigating genre popularity, budget vs. revenue correlations, ratings impact, and profitability drivers.</p>
+                        <div class="project-actions">
+                            <a href="projects/movies_analysis.ipynb" download="movie_eda.ipynb" class="btn btn-sm btn-primary">Download Jupyter Notebook</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. ACHIEVEMENTS SECTION -->
+    <section class="highlights-section">
+        <div class="container">
+            <div class="highlights-grid">
+                <div class="highlight-item">
+                    <span class="highlight-number">3+</span>
+                    <span class="highlight-label">End-to-End Projects</span>
+                </div>
+                <div class="highlight-item">
+                    <span class="highlight-number">4+</span>
+                    <span class="highlight-label">Data Analysis Tools</span>
+                </div>
+                <div class="highlight-item">
+                    <span class="highlight-number">SQL & Python</span>
+                    <span class="highlight-label">Core Technical Stack</span>
+                </div>
+                <div class="highlight-item">
+                    <span class="highlight-number">100%</span>
+                    <span class="highlight-label">Dedication to Insights</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. CERTIFICATES SECTION -->
+    <section id="certificates" class="certificates-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>CERTIFICATES & LEARNING</h2>
+                <div class="line-divider"></div>
+            </div>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="cert-year">2025</div>
+                    <h3>GED® High School Equivalency Credential</h3>
+                    <p class="cert-issuer">OSSE Washington, D.C. • GED Testing Service</p>
+                    <a href="images/GED.pdf" target="_blank" class="cert-card-btn pdf-btn">View PDF Document</a>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="cert-year">2026</div>
+                    <h3>Data Analyst All-In-One Course</h3>
+                    <p class="cert-issuer">Success Point • 120 Hours</p>
+                    <button class="cert-card-btn cert-btn" data-img="images/cert-all-in-one.png">View Certificate</button>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="cert-year">2026</div>
+                    <h3>Python for Data Analysis & Visualization</h3>
+                    <p class="cert-issuer">Success Point</p>
+                    <button class="cert-card-btn cert-btn" data-img="images/cert-python.png">View Certificate</button>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="cert-year">2026</div>
+                    <h3>Power BI for Business Intelligence</h3>
+                    <p class="cert-issuer">Success Point</p>
+                    <button class="cert-card-btn cert-btn" data-img="images/cert-powerbi.png">View Certificate</button>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="cert-year">2026</div> 
+                    <h3>SQL for Data Analytics (MySQL)</h3>
+                    <p class="cert-issuer">Success Point</p>
+                    <button class="cert-card-btn cert-btn" data-img="images/cert-sql.png">View Certificate</button>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="cert-year">2026</div>
+                    <h3>Applied Statistics for Data Analytics</h3>
+                    <p class="cert-issuer">Success Point</p>
+                    <button class="cert-card-btn cert-btn" data-img="images/cert-stats.png">View Certificate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIGHTBOX MODAL POPUP CONTAINER -->
+    <div id="certModal" class="cert-modal">
+        <span class="cert-modal-close">&times;</span>
+        <img class="cert-modal-content" id="certModalImg" alt="Certificate Preview">
+    </div>
+
+    <!-- 8. CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-card">
+                <div class="section-header">
+                    <h2>LET'S CONNECT</h2>
+                    <div class="line-divider"></div>
+                </div>
+                <p class="contact-intro">
+                    I am currently looking for entry-level opportunities, internships, or freelance roles as a <strong>Data Analyst</strong>. Let's discuss how I can bring value to your team.
+                </p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-label">Email:</span>
+                        <a href="mailto:tmc75945@gmail.com">tmc75945@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">Location:</span>
+                        <span>Hpa-an, Myanmar</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">Social:</span>
+                        <div class="social-links">
+                            <a href="#" onclick="navigator.clipboard.writeText('blingburn_59794'); alert('Discord username copied to clipboard!'); return false;">Discord</a>
+                            <span>•</span>
+                            <a href="https://wellfound.com/u/htet-thiri-wint" target="_blank">Wellfound</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-action">
+                    <a href="mailto:tmc75945@gmail.com" class="btn btn-primary">Send Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="footer-brand">THIRI — <span>Aspiring Data Analyst</span></p>
+            <p class="copyright">&copy; 2026 Thiri. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
